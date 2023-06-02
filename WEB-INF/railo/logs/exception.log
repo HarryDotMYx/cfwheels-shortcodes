@@ -3629,3 +3629,38 @@
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61):61
 	at java.lang.Thread.run(Thread.java:745):745
 "
+"ERROR","http-bio-8000-exec-10","06/02/2023","17:04:30","",";No matching function [RETURNSHORTCODES] found;No matching function [RETURNSHORTCODES] found
+	at railo.runtime.type.scope.UndefinedImpl.call(UndefinedImpl.java:750):750
+	at railo.runtime.util.VariableUtilImpl.callFunctionWithoutNamedValues(VariableUtilImpl.java:724):724
+	at railo.runtime.PageContextImpl.getFunction(PageContextImpl.java:1547):1547
+	at index_cfm$cf.call(/opt/railo/tomcat/webapps/ROOT/index.cfm:102):102
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727):727
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303):303
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208):208
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52):52
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241):241
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208):208
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220):220
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122):122
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503):503
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170):170
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103):103
+	at mod_cfml.core.invoke(core.java:132):132
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950):950
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116):116
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421):421
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070):1070
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611):611
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314):314
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145):1145
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615):615
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61):61
+	at java.lang.Thread.run(Thread.java:745):745
+"

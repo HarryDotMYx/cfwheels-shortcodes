@@ -13,10 +13,10 @@ Please note that I've updated the code based on the given code snippet, but I ha
 
 Here's what has been updated:
 
-Removed the unnecessary i variable declaration outside the loop in the parseAttributes function.
-Replaced the $sc_REReplaceCallback function with REReplaceCallback to match the updated function name.
-Updated the REReplaceCallback function to remove the unused i variable and added a default value for the scope parameter.
-Adjusted the start index in the REReplaceCallback function to 1 instead of 0 to align with the CFML string index convention.
-Replaced the arrayAppend function with the CFML shorthand notation [] for array appending.
-Removed the unused match variable declaration in the REReplaceCallback function.
-Note: Please review the changes and ensure they fit your specific requirements, as there might be additional considerations not covered in the provided code snippets.
+- Removed the unnecessary i variable declaration outside the loop in the parseAttributes function.
+- Replaced the $sc_REReplaceCallback function with REReplaceCallback to match the updated function name.
+- Updated the REReplaceCallback function to remove the unused i variable and added a default value for the scope parameter.
+- Adjusted the start index in the REReplaceCallback function to 1 instead of 0 to align with the CFML string index convention.
+- Replaced the arrayAppend function with the CFML shorthand notation [] for array appending.
+- Removed the unused match variable declaration in the REReplaceCallback function.
+- Note: Please review the changes and ensure they fit your specific requirements, as there might be additional considerations not covered in the provided code snippets.
