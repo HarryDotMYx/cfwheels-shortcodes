@@ -1,4 +1,4 @@
-<h1>Shortcodes v0.1</h1>
+<h1>Shortcodes v0.5</h1>
 <p>This is a port of Barney's <a href="http://www.barneyb.com/barneyblog/projects/shortcodes/">shortcodes</a> implementation for CFML (itself a port of the wordpress shortcodes concept). He wrote all the tricky stuff, I've just refactored into cfscript, stripped out all the CFC aspects and made into a cfWheels plugin. Note, I haven't bothered with the full cfc implementation with execute, as we're doing this within a cfwheels app.</p>
 
 <p>Please note nested shortcodes aren't currently supported.</p>
