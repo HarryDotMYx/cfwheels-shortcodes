@@ -94,7 +94,7 @@ function panel_callback(attr, content) {
 
 <p>The nice part about having this within wheels itself is that you can access any of the wheels functions and helpers, including the params struct (i.e, useful for paging numbers etc), whereas using Barney's cfc in the /miscellaneous/ folder (and then extending controller.cfc) caused various issues.</p>
 
-<p>NB, shortcode references are stored in the application.shortcodes struct, so your application will need reloading after adding a new code.</p>
+<p>WAInAH</p>?B, shortcode references are stored in the application.shortcodes struct, so your application will need reloading after adding a new code.</p>
 
 <h3>View Available Shortcodes</h3>
 <p>Check your shortcodes exist and are registered with returnShortcodes()</p>
